@@ -3,6 +3,7 @@
 A CLI tool to compress JPG/PNG images to a user-specified file size.
 
 ## Features
+
 - Compress single images or all images in a folder
 - Target file size (in KB)
 - Optional manual quality override
@@ -22,10 +23,12 @@ printf "python image_compressor.py --input path/to/image.png --target-size 100 -
 ```
 
 ## Arguments
+
 - `--input`: Path to input image
 - `--folder`: Path to folder containing images
 - `--target-size`: Target file size in KB
 - `--quality`: (Optional) Manual quality override (1-95)
 
 ## Output
+
 Compressed images are saved with `_compressed` suffix in the same directory.
