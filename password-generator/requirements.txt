@@ -1,0 +1,12 @@
+# No external dependencies required - uses only Python standard library
+# The password generator uses built-in modules:
+# - secrets (for cryptographically secure random number generation)
+# - string (for character sets)
+# - argparse (for command line interface)
+# - json (for JSON output format)
+# - sys (for system operations)
+# - os (for file operations)
+# - typing (for type hints)
+
+# If you want to run tests (optional):
+# pytest>=7.0.0
